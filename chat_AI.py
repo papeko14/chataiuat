@@ -10,11 +10,12 @@ Data = st.Page(page='views/testdata.py',title='Data', icon='📅')
 chat_bot = st.Page(page='views/Chat_page.py',title='Chat_bot', icon='🤖')
 chat_zone = st.Page(page='views/Chat_page_zone.py',title='Chat_bot_zone',icon='🤖')
 graph = st.Page(page='views/Graph_data.py',title='graph', icon='📊')
-test_data = st.Page(page='views/Table_Data.py',title='Chat_bot', icon='📊')
+#test_data = st.Page(page='views/Table_Data.py',title='Chat_bot', icon='📊')
 pg = st.navigation(
-        pages=[chat_bot,Data,graph,chat_zone,test_data]
+        pages=[chat_bot,Data,graph,chat_zone]
     )
 pg.run()
+
 
 
 
